@@ -1,0 +1,160 @@
+html,body {
+    width: 320px;
+    background: gray;
+}
+
+#title_bar {
+	position: relative;
+	width: 100%;
+	padding-top: 15px;
+    color: white;
+}
+
+h1 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0.5rem 1rem 0.5rem;
+}
+#topright {
+	font-size: 1.2rem;
+    margin: 0.5rem;
+    position: relative;
+    overflow: hidden;
+    height: 1.3rem;
+}
+#topright span{
+    margin: 0 0.4rem;
+}
+
+#toppage a {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+#whatischample {
+    cursor: pointer;
+}
+#login {
+    cursor: pointer;
+}
+
+#contact_container {
+	width: 320px;
+    height: 200px;
+    position: absolute;
+    top: 150px;
+    z-index: 2;
+    background: black;
+    opacity: 0.6;
+    color: white;
+    user-select: text;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    -o-user-select: text;
+}
+.contact_titles {
+	margin: 20px 20px 0 15px;
+	font-size: 20px;
+}
+.contact_contents {
+	margin: 10px 20px 0 30px;
+	font-size: 15px;
+}
+
+#screen1 {
+    width: 320px;
+    height: 214px;
+    background: url("../images/cover1.jpg") no-repeat;
+    background-size: contain;
+    position: relative;
+}
+#screen2 {
+    display: none;
+    width: 320px;
+    height: 214px;
+    background: url("../images/cover2.jpg") no-repeat;
+    background-size: contain;
+    position: relative;
+}
+#screen3 {
+    display: none;
+    width: 320px;
+    height: 214px;
+    background: url("../images/cover3.jpg") no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.mes {
+    color: white;
+    position: absolute;
+    font-family: serif;
+}
+#mes1 {
+    top: 230px;
+    left: 10px;
+    width: 300px;
+}
+#mes2 {
+    top: 230px;
+    left: 10px;
+    width: 300px;
+}
+#mes3 {
+    top: 230px;
+    left: 10px;
+    width: 300px;
+}
+.large_mes {
+    display: none;
+    font-size: 2.6rem;
+}
+.small_mes {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    line-height: 125%;
+}
+.firstline {
+    display: none;
+}
+.secondline {
+    display: none;
+}
+.joinchamplebutton {
+    display: none;
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    background: #1e90ff;
+    opacity: 1;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.joinchamplebutton:hover {
+    background: #00bfff;
+}
+.moredetailsbutton, .backbutton {
+    display: none;
+    margin-top: 10px;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    background: #008000;
+    opacity: 1;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.moredetailsbutton:hover, .backbutton:hover{
+    background: #228b22;
+}
+.moredetails {
+    display: none;
+    font-size: 1.7rem;
+    line-height: 125%;
+    position: absolute;
+    top: 0;
+    width: 300px;
+}

@@ -1,0 +1,30 @@
+#world {
+    width: 100%;
+    height: 490px;
+}
+
+#dialog {
+    width: 100%;
+    height: 40px;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+}
+#youtalked {
+    display: inline-block;
+    vertical-align: top;
+    padding: 1px 10px;
+    color: white;
+}
+.emphasis2 {
+    font-size: 1.7rem;
+}
+#images {
+    display: inline-block;
+    cursor: pointer;
+}
+
+#hint {
+    width: 100%;
+    text-align: right;
+    font-size: 1.5rem;
+}

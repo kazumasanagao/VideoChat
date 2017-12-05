@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+    <title>Chample | Map</title>
+    <meta name="description" content="In this page, you can see people you've already talked with. It is colored on the map. That's why you can easily find your friends." />
+    <meta name="keywords" content="map, video chat, chample" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=320,initial-scale=1" />
+    <link id="bodycss" rel="stylesheet" href="../stylesheets/body.css" />
+    <link id="headercss" rel="stylesheet" href="../stylesheets/header.css" />
+    <link id="mapcss" rel="stylesheet" href="../stylesheets/map.css" />
+    <link rel="stylesheet" href="../jqvmap/jqvmap.css" />
+    <link id="twoRowscss" rel="stylesheet" href="../stylesheets/twoRows.css" />
+    <link id="thirdRowcss" rel="stylesheet" href="../stylesheets/thirdRow.css" />
+    <link id="chatcss" rel="stylesheet" href="../stylesheets/chat.css" />
+    <link id="talkcss" rel="stylesheet" href="../stylesheets/talk.css" />
+    <link id="settingscss" rel="stylesheet" href="../stylesheets/settings.css" />
+    <link id="policycss" rel="stylesheet" href="../stylesheets/policy.css" />
+    <link id="logincss" rel="stylesheet" href="../stylesheets/login.css" />
+    <script src="../javascripts/getCookie.js"></script>
+    <script src="../javascripts/writeHeader.js"></script>
+    <script src="../javascripts/pulldowns.js"></script>
+    <script src="../javascripts/mobile_css.js"></script>
+</head>
+<body>
+    <script type="text/javascript">writeHeader();</script>
+    <div id="dialog"><div id="hint" class="yellow_font">Hint: To fix top bar, click that country. Click somewhere else, it will be released.</div></div>
+    <div id="world"></div>
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="http://localhost:8080/socket.io/socket.io.js"></script>
+<!--<script src="https://signaling.chample.in/socket.io/socket.io.js"></script>-->
+<script src="../jqvmap/jquery.vmap.js"></script>
+<script src="../jqvmap/maps/jquery.vmap.world.js"></script>
+<script src="../javascripts/conf.js"></script>
+<script src="../javascripts/dateformat.js"></script>
+<script src="../javascripts/map.js"></script>
+<script src="../javascripts/makeTwoRows.js"></script>
+<script src="../javascripts/call.js"></script>
+<script src="../javascripts/openPersonInfo.js"></script>
+<script src="../javascripts/openTalk.js"></script>
+<script src="../javascripts/sendSignal.js"></script>
+<script src="../javascripts/adapter.js"></script>
+<script src="../javascripts/talk.js"></script>
+<script src="../javascripts/chat.js"></script>
+<script src="../javascripts/settings.js"></script>
+<script src="../javascripts/load_image.js"></script>
+<script src="../javascripts/token.js"></script>
+<script src="../javascripts/facebook.js"></script>
+<script src="../javascripts/demo.js"></script>
+<script><%= script %></script>
+<script>refreshCookies();</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-74825022-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>

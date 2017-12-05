@@ -1,0 +1,101 @@
+h1 {
+    font-size: 1.2rem;
+    color: white;
+    padding: 5px 0 10px 0;
+}
+#logo {
+    width: 150px;
+    height: 35px;
+    margin-top: 25px;
+}
+#title_bar {
+    margin-top: 25px;
+    padding: 5px 5px 0 5px;
+}
+#counter {
+    color: white;
+    display: block;
+    position: relative;
+    font-size: 1.2rem;
+}
+.emphasis {
+    font-size: 2rem;
+}
+.pop {
+    display: none;
+    position: absolute;
+    top: -12px;
+    left: -5px;
+    font-size: 1.2rem;
+    background: red;
+    color: white;
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+#topright_main {
+    color: white;
+    position: absolute;
+    font-size: 1.2rem;
+    top: 10px;
+    left: 5px;
+}
+
+
+#option_bar {
+    width: 100%;
+    margin-top: 10px;
+}
+.join {
+    position: relative;
+    margin-left: 10px;
+    font-size: 1.2rem;
+    padding: 0.7rem 0.7rem 0.3rem 0.7rem;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+.join:hover {
+    background: #f5eb28; /* yellow直書き箇所（hoverのため）*/
+    color: #8c8c8c; /* deepgray直書き箇所（hoverのため） */
+}
+
+#option_right {
+    margin-top: 5px;
+    display: block;
+}
+.options {
+    margin-left: 5px;
+    font-size: 1.2rem;
+    padding: 0.7rem;
+    display: inline-block;
+    text-align: center;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+.options:hover {
+    color: white;
+}
+
+#chat {
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: #c8c8c8; /* ultralightgray直書き箇所（aのため） */
+}
+a:hover {
+    color: white;
+    cursor: pointer;
+}
+
+/* カレントページのときはaタグを消す。すると、こっちの設定が活きる。
+（aタグがあるときはそっちが優先されるので、この設定は無視される） */
+#room,#chat,#friends,#history,#map,#faq {
+    color: #696969; /* ultradeepgray直書き箇所（可読性を高めるため） */
+    cursor: default;
+}
+
+#features a {
+    color: white;
+}

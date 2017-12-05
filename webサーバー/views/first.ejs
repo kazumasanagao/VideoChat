@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Chample | Features</title>
+    <meta name="description" content="Chample is a video chat site. You can find person by country, language, hobby and so on. It helps you learn various cultures. Enjoy video chat and learn a lot!" />
+    <meta name="keywords" content="video chat, chample" />
+    <link rel="canonical" href="https://chample.in/" />
+    <meta name="viewport" content="width=320,initial-scale=1" />
+    <link rel="stylesheet" href="../stylesheets/body.css" />
+    <link id="firstcss" rel="stylesheet" href="../stylesheets/first.css" />
+    <link rel="stylesheet" href="../stylesheets/policy.css" />
+    <link id="logincss" rel="stylesheet" href="../stylesheets/login.css" />
+</head>
+<body>  
+    <div id="title_bar">
+        <h1>Chample is Video chat for Learning and Laughing.</h1>
+        <div id="topright">
+            <span id="login">Login</span> ・ 
+            <span id="toppage"><a href="/map">Demo Page</a></span> ・  
+            <span onclick="opencontact()" style="cursor:pointer;">Contact Us</span> ・ 
+            <span onclick='window.open("/policy", "", "width=660,height=480");' style="cursor:pointer;">Our Policies</span>
+        </div>
+    </div>
+
+    <div id="screen1">
+        <div class="black">
+            <div id="mes1" class="mes">
+                <h2 class="large_mes">Make Global Friends.</h2>
+                <div class="small_mes">
+                    <p class="firstline">You can make friends all over the world.</p>
+                    <p class="secondline">Enjoy video chat everywhere, everytime.</p>
+                </div>
+                <div class="joinchamplebutton" onclick="joinchample()">
+                    <span style="display:inline-block;margin-top:12px;">JOIN CHAMPLE FOR FREE</span>
+                </div>
+                <div class="moredetailsbutton" onclick="opendetails()">
+                    <span style="display:inline-block;margin-top:12px;">MORE DETAILS</span>
+                </div>
+                <div class="moredetails">
+                    <p>You can select a person you'd like to talk with. By region (e.g. Europe, Africa), country, language, gender, hobby and so on.</p>
+                    <p style="margin-top:10px;">You can also choose an old friend (the person you've already talked with).</p>
+                    <div class="backbutton" onclick="backtofront()">
+                        <span style="display:inline-block;margin-top:8px;">BACK TO FRONT</span>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </div>
+
+    <div id="screen2">
+        <div class="black">
+            <div id="mes2" class="mes">
+                <h2 class="large_mes">Learn Languages.</h2>
+                <div class="small_mes">
+                    <p class="firstline">Conversation is a good way to learn languages.</p>
+                    <p class="secondline">You can learn several languages.</p>
+                </div>
+                <div class="joinchamplebutton" onclick="joinchample()">
+                    <span style="display:inline-block;margin-top:12px;">JOIN CHAMPLE FOR FREE</span>
+                </div>
+                <div class="moredetailsbutton" onclick="opendetails()">
+                    <span style="display:inline-block;margin-top:12px;">MORE DETAILS</span>
+                </div>
+                <div class="moredetails">
+                    <p>You can select 10 languages to speak.</p>
+                    <p style="margin-top:10px;">English, Arabic, Chinese, French, German, Hindi, Japanese, Portuguese, Russian and Spanish.</p>
+                    <p style="margin-top:10px;">It is helpful for learning new languages.</p>
+                    <div class="backbutton" onclick="backtofront()">
+                        <span style="display:inline-block;margin-top:8px;">BACK TO FRONT</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="screen3">
+        <div class="black">
+            <div id="mes3" class="mes">
+                <h2 class="large_mes">Just for Laughing.</h2>
+                <div class="small_mes">
+                    <p class="firstline">Conversation is Fun, Relaxing and Exciting.</p>
+                </div>
+                <div class="joinchamplebutton" onclick="joinchample()"><span style="display:inline-block;margin-top:12px;">JOIN CHAMPLE FOR FREE</span></div>
+                <div class="moredetailsbutton" onclick="opendetails()">
+                    <span style="display:inline-block;margin-top:12px;">MORE DETAILS</span>
+                </div>
+                <div class="moredetails">
+                    <p>We strictly prohibit any sexual acts, harassments and advertisements.</p>
+                    <p style="margin-top:10px;">Therefore, you can use this video chat comfortably.</p>
+                    <div class="backbutton" onclick="backtofront()">
+                        <span style="display:inline-block;margin-top:8px;">BACK TO FRONT</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="gray_panel" style="display:none;" onclick="closepanel()"></div>
+    <div id="islogin" style="display:none"><%= islogin %></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="../javascripts/conf.js"></script>
+<script src="../javascripts/first.js"></script>
+<script src="../javascripts/token.js"></script>
+<script src="../javascripts/facebook.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-74825022-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<fb:login-button style="display:none;" id="fbbutton" scope="public_profile" onlogin="checkLoginState();">
+</fb:login-button>
+<div style="display:none;" id="status" >
+</div>
+
+</body>
+</html>

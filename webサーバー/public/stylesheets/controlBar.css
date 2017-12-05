@@ -1,0 +1,69 @@
+#control_bar {
+    width: 949px; 
+    height: 60px;
+    margin-top: 15px;
+}
+#control_bar_title {
+    position: relative;
+    top: 15px;
+    padding-left: 25px;
+    font-size: 3rem;
+}
+#selection_bar {
+    position: relative;
+    top: 10px;
+    padding-left: 15px;
+    font-size: 1.2rem;
+    color: white;
+}
+.selections {
+    margin-left: 5px;
+    cursor: pointer;
+}
+.pulldown {
+    border: 2px solid #8c8c8c; /* deepgray直書き箇所（ボーダーのため） */
+    border-radius: 5px;
+    font-size: 1.5rem;
+    height: 30px;
+    line-height: 30px;
+    width: 110px;
+}
+#freeword {
+    border: 2px solid #8c8c8c; /* deepgray直書き箇所（ボーダーのため） */
+    border-radius: 5px;
+    font-size: 1.5rem;
+    height: 26px; /*inputのボーダーは外側に付くので、他とサイズを合わせるためにはその分差し引く必要あり*/
+    line-height: 26px; /*inputのボーダーは外側に付くので、他とサイズを合わせるためにはその分差し引く必要あり*/
+    width: 106px;
+    padding: 0;
+    text-indent: 5px;
+    cursor: default;
+}
+/* Google Chrome, Safari, Opera 15+, Android, iOS */
+::-webkit-input-placeholder { color: #afafaf;} /* lightgray直書き箇所（placeholderのため） */
+/* Firefox 18- */
+:-moz-placeholder { color: #afafaf; opacity: 1;}
+/* Firefox 19+ */
+::-moz-placeholder { color: #afafaf; opacity: 1;}
+/* IE 10+ */
+:-ms-input-placeholder { color: #afafaf;}
+#reload {
+    position: relative;
+    top: 8px;
+    left: 8px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    height: 30px;
+    width: 70px;
+}
+#checkboxes {
+    display: inline-table;
+    font-size: 1.2rem;
+}
+.labels {
+    margin-left: 0px;
+    padding-left: 3px;
+}
+#showoptions {
+    display: none;
+}

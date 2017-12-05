@@ -1,0 +1,85 @@
+#policy_container {
+    width: 660px;
+    height: 590px;
+    position: absolute;
+    top: 50px;
+    left: 144px;
+    z-index: 2;
+    background: black;
+    opacity: 0.6;
+    color: white;
+}
+#policy_title {
+    padding: 15px 15px 0 15px;
+    font-size: 18px;
+}
+#termsand {
+    padding: 2px 5px 5px 5px;
+    border: 2px solid white;
+    background: white;
+    color: black;
+}
+#privacypolicy {
+    padding: 2px 5px 5px 5px;
+    border: 2px solid white;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#japanese {
+    font-size: 9px;
+    float: right;
+    cursor: pointer;
+}
+#policy_message {
+    font-size: 12px;
+    margin: 7px 15px 15px 15px;
+    padding: 15px;
+    height: 380px;
+    border: 2px solid white;
+    line-height: 130%;
+    overflow: scroll;
+    user-select: text;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    -o-user-select: text;
+}
+.headlines {
+    font-weight: bold;
+    margin: 12px 0 6px 0;
+}
+.applyboxes {
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+.applylabels {
+    cursor: pointer;
+    margin-left: 5px;
+    font-size: 15px;
+}
+#applyalerts {
+    visibility: hidden;
+    color: yellow;
+    font-size: 15px;
+    margin-left: 35px;
+}
+#applybuttonsflame {
+    float: right;
+    margin: 10px 10px 10px 0px;
+}
+.applybuttons {
+    display: inline-block;
+    font-size: 18px;
+    width: 80px;
+    height: 20px;
+    text-align: center;
+    padding: 3px;
+    margin-right: 15px;
+    border: 2px solid white;
+    border-radius: 7px;
+}
+.applybuttons:hover {
+    background: white;
+    color: black;
+    cursor: pointer;
+}

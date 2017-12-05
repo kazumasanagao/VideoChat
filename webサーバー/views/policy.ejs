@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Chample | Policies</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="This is our 'Terms and Conditions of Use' and 'Privacy Policy'. You need to read and agree these documents before using our service." />
+    <meta name="keywords" content="policies, video chat, chample" />
+    <meta name="viewport" content="width=320,initial-scale=1" />
+    <link rel="stylesheet" href="../stylesheets/body.css" />
+    <link id="policycss" rel="stylesheet" href="../stylesheets/policy.css" />
+    <style type="text/css">
+        html,body {
+            width: 100%;
+            height: 100%;
+        }
+        #policy_container {
+            height: 100%;
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="policy_container">
+        <div id="policy_title">
+            <span id="termsand" onclick="termsand()">Terms and Conditions of Use</span>
+            <span id="privacypolicy" onclick="privacypolicy()">Privacy Policy</span>
+            <span id="japanese" onclick="japanese()">日本語</span>
+        </div>
+        <div id="policy_message">
+        </div>
+    </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="../javascripts/policy.js"></script>
+<script>
+    $('#policy_message').html(termsMessage);
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-74825022-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>

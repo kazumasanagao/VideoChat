@@ -1,0 +1,30 @@
+#q_table {
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+}
+li {
+    margin-top: 0px;
+    padding: 8px;
+    border-radius: 15px; 
+    cursor: pointer;
+}
+.questions {
+    margin-top: 0px;
+    margin-left: 10px;
+    font-size: 1.8rem; 
+}
+
+.answers {
+    display: none;
+    margin-left: 30px;
+    font-size: 1.5rem;
+    line-height: 120%;
+}
+#openchatofficial {
+    text-decoration: underline;
+    margin-left: 10px;
+}
+#openchatofficial:hover {
+    color: lightgray;
+}

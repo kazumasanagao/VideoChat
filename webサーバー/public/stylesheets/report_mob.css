@@ -1,0 +1,41 @@
+#report_container {
+    width: 320px;
+    height: 280px;
+    position: fixed;
+    top: 100px;
+    z-index: 2;
+    background: black;
+    opacity: 0.7;
+    color: white;
+}
+#reportTitle {
+    font-size: 2.5rem;
+    margin: 10px;
+}
+#personName {
+    font-size: 1.8rem;
+    margin-left: 20px;
+}
+#radios {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.reportLabel {
+    font-size: 2rem;
+    line-height: 200%;
+    padding-left: 7px;
+    cursor: pointer; 
+}
+#sendReport {
+    cursor: pointer;
+    float: right;
+    margin-right: 30px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 1.2rem;
+    border: solid 2px white;
+}
+#sendReport:hover {
+    background: white;
+    color: black;
+}

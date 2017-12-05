@@ -1,0 +1,96 @@
+#chat_container {
+    width: 320px;
+    height: 380px;
+    position: fixed;
+    top: 10%;
+    z-index: 2;
+}
+
+#chatbox {
+    margin-top: 2px;
+    width: 90%;
+    height: 220px;
+    padding: 0 5%;
+    overflow: scroll;
+    position: relative;
+}
+.message_container {
+    position: relative;
+    margin-bottom: 8px;
+}
+.message_container:after {
+    clear: both;
+    display: block;
+    content: "";
+}
+.my_messages {
+    clear: both;
+    float: right;
+    color: white;
+    margin-right: 5px;
+    padding: 8px;
+    margin-bottom: 2px;
+    max-width: 80%;
+    font-size: 1.8rem;
+    word-wrap: break-word;
+    border-radius: 10px;
+}
+.triangle_right {
+    position:absolute;
+    width: 0;
+    height: 0;
+    right: -8px;
+    top: 8px;
+    border-top: 7px solid transparent;/*下向き三角*/
+    border-right: 7px solid  transparent;/*左向き三角*/
+    border-left: 7px solid #28b9e6;/*右向き三角*/ /* blue直書き箇所（ボーダーのため） */
+    border-bottom: 7px solid transparent;/*上向き三角*/
+}
+.friend_messages {
+    clear: both;
+    float: left;
+    color: white;
+    margin-left: 5px;
+    padding: 8px;
+    margin-bottom: 2px;
+    max-width: 80%;
+    font-size: 1.8rem;
+    word-wrap: break-word;
+    border-radius: 10px;
+}
+.triangle_left {
+    position:absolute;
+    width: 0;
+    height: 0;
+    left: -8px;
+    top: 8px;
+    border-top: 7px solid transparent;/*下向き三角*/
+    border-right: 7px solid #dc1482;/*左向き三角*/ /* pink直書き箇所（ボーダーのため） */
+    border-left: 7px solid transparent;/*右向き三角*/ 
+    border-bottom: 7px solid transparent;/*上向き三角*/
+}
+.datetime_left {
+    clear: both;
+    float: left;
+    font-size: 1rem;
+    margin-left: 8px;
+}
+.datetime_right {
+    clear: both;
+    float: right;
+    font-size: 1rem;
+    margin-right: 8px;
+}
+
+#message_text {
+    resize: none; /* colとrowの設定をキャンセルしてwidth,heightを設定するため */
+    outline: none; /* focus時にまわりが光るのを止める */
+    margin-top: 2px;
+    margin-left: 4%;
+    font-size: 1.7rem;
+    width: 90%;
+    height: 56px;
+    border: 2px solid #8c8c8c; /* deepgray直書き箇所（ボーダーのため） */
+    border-radius: 5px;
+    color: white;
+}

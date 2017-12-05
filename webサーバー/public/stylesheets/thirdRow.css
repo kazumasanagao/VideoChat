@@ -1,0 +1,93 @@
+#row3 {
+    height: 60px;
+    width: 295px;
+    padding: 10px;
+}
+.buttons {
+    display: inline-block;
+    border: solid 3px white;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.8rem;
+    height: 25px;
+    width: 80px;
+    text-align: center;
+    cursor: pointer;
+}
+.buttons:hover {
+    background: white;
+    border: solid 3px #dc1482; /* pink直書き箇所(hoverのため) */
+    color: #dc1482; /* pink直書き箇所(hoverのため) */
+}
+#pickup {
+    padding-top: 5px;
+    margin-left: 5px;
+}
+#hangup {
+    padding-top: 5px;
+    margin-left: 15px;
+}
+#callbutton {
+    padding-top: 5px;
+    margin-top: 14px;
+    margin-left: 54px;
+}
+#chatbutton {
+    padding-top: 5px;
+    margin-top: 14px;
+    margin-left: 15px;
+}
+#countdown {
+    color: white;
+    font-size: 2rem;
+    margin-left: 15px;
+}
+#hangup_description {
+    margin: 5px 0 0 5px;
+    color: white;
+    font-size: 1.1rem;
+    line-height: 110%;
+}
+
+#lang_frame {
+    position: relative;
+    display: none;
+}
+.hiddeninfo {
+    position: absolute;
+    left: 25px;
+    top: 10px;
+    max-width: 300px;
+    padding: 8px;
+    font-size: 1.5rem;
+    background: white;
+    opacity:0.8; 
+    border-radius: 10px;
+}
+.triangle_top {
+    position:absolute;
+    width: 0;
+    height: 0;
+    left: 70px;
+    top: -6px;
+    border-top: 8px solid transparent;/*下向き三角*/
+    border-right: 8px solid  transparent;/*左向き三角*/
+    border-left: 8px solid transparent;/*右向き三角*/
+    border-bottom: 8px solid white;/*上向き三角*/
+    opacity:0.8; 
+}
+#nochat_frame {
+    position: relative;
+    display: none;
+}
+#nochat_container {
+    left: 160px;
+}
+#tt2 {
+    left: 170px;
+}
+
+.underbars {
+    font-size: 1.2rem;
+    cursor: pointer;
+}

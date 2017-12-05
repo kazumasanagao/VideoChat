@@ -1,0 +1,83 @@
+#talk_container {
+    padding: 10px 25px;
+    width: 450px;
+    height: 630px;
+    position: absolute;
+    top: 10px;
+    left: 225px;
+    z-index: 2;
+}
+#talk_maincontainer {
+    display: none;
+}
+#loading {
+    position:absolute;
+    left:50%;
+    top:20%;
+    margin-left:-30px;
+}
+#user_info {
+    font-size: 22px;
+    width: 450px;
+    height: 25px;
+    overflow: hidden;
+}
+#remote-video {
+    width: 450px;
+    height: 300px;
+    margin: 10px 0;
+    background: black;
+}
+#left_part {
+    float: left;
+    width: 290px;
+}
+#right_part {
+    float: left;
+    width: 100px;
+    margin-left: 10px;
+}
+#local-video {
+    width: 150px;
+    height: 100px;
+    background: black;
+}
+
+#hangupbutton {
+    margin-top: 15px;
+    margin-left: 50px;
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 30px;
+    background-color: red;
+    cursor: pointer;
+}
+#timer {
+   margin-top: 15px;
+   margin-left: 56px;
+   font-size: 15px;
+}
+#buttons_talk {
+    margin-top: 50px;
+    text-align: center;
+    width: 120px;
+}
+.star_talk {
+    cursor: pointer;
+}
+.reportbutton_talk {
+    float: right;
+    display: inline-block;
+    margin-top: 5px;
+    cursor: pointer;
+    font-size: 10px;
+}
+.blockbutton_talk {
+    float: right;
+    display: inline-block;
+    margin-top: 5px;
+    cursor: pointer;
+    font-size: 10px;
+}

@@ -1,0 +1,252 @@
+#settings_container {
+    width: 335px;
+    height: 378px;
+    position: absolute;
+    top: 50px;
+    left: 307px;
+    z-index: 2;
+}
+.se_rows {
+    height: 80px;
+    width: 335px;
+}
+.se_white_blank {
+    background: white;
+    width: 100%;
+    height: 2px;
+}
+
+#se_row1 {
+    margin-top: 10px;
+}
+.se_intro {
+    float: right;
+    width: 254px;
+}
+.se_intro_top {
+    font-size: 1.5rem;
+}
+.se_intro_bottom {
+    margin-top: 5px; 
+    font-size: 1.5rem;
+    line-height: 125%;
+    color: white;
+}
+#photo_flame {
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
+#photo_flame:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+.file {
+    display: inline-block;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 80px;
+}
+.file input[type="file"] {
+    opacity: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 0;
+    font-size: 100px;
+    cursor: pointer;
+}
+#nickname_input {
+    border: 1px solid #46af4b; /* green直書き箇所（ボーダーのため） */
+    color: #f5eb28;
+    font-size: 1.8rem;
+    width: 110px;
+    cursor: auto;
+    margin: 5px 0px 0px 3px;
+}
+/* Google Chrome, Safari, Opera 15+, Android, iOS */
+#nickname_input::-webkit-input-placeholder { color: #f5eb28; opacity: 0.7;} /* yellow直書き箇所（placeholderのため） */
+/* Firefox 18- */
+#nickname_input:-moz-placeholder { color: #f5eb28; opacity: 0.7;}
+/* Firefox 19+ */
+#nickname_input::-moz-placeholder { color: #f5eb28; opacity: 0.7;}
+/* IE 10+ */
+#nickname_input:-ms-input-placeholder { color: #f5eb28; opacity: 0.7;}
+
+#country_select {
+    border: 1px solid #46af4b; /* green直書き箇所（ボーダーのため） */
+    color: #f5eb28;
+    font-size: 1.8rem;
+    width: 110px;
+    cursor: pointer;
+}
+#textarea0 {
+    font-size: 1.3rem;
+    border: 1px solid #46af4b; /* green直書き箇所（ボーダーのため） */
+    color: white;
+    padding: 0 3px;
+    width: 225px;
+    line-height: 125%;
+}
+#textarea0::-webkit-input-placeholder { color: white; opacity: 0.7;}
+#textarea0:-moz-placeholder { color: white; opacity: 0.7;}
+#textarea0::-moz-placeholder { color: white; opacity: 0.7;}
+#textarea0:-ms-input-placeholder { color: white; opacity: 0.7;}
+#textcounter0 {
+    font-size: 1.2rem;
+}
+
+#ispeak {
+    padding-top: 4px;
+    margin-left: 10px;
+    font-size: 1.5rem;
+    color: white;
+}
+#checkboxes {
+    margin: 4px 0 0 15px;
+}
+input[type="checkbox"] {
+    cursor: pointer;
+}
+.se_labels {
+    cursor: pointer;
+    display: inline-block;
+    color: white;
+    font-size: 1.2rem;
+    width: 50px;
+}
+
+
+#textarea1 {
+    margin: 5px 0 0 5px;
+    font-size: 1.3rem;
+    border: 1px solid #28b9e6; /* blue直書き箇所（ボーダーのため） */
+    color: white;
+    padding: 0 3px;
+    width: 295px;
+    line-height: 115%;
+}
+#textarea1::-webkit-input-placeholder { color: white; opacity: 0.7;}
+#textarea1:-moz-placeholder { color: white; opacity: 0.7;}
+#textarea1::-moz-placeholder { color: white; opacity: 0.7;}
+#textarea1:-ms-input-placeholder { color: white; opacity: 0.7;}
+#textcounter1 {
+    font-size: 1.2rem;
+    color: white;
+}
+
+#se_gender {
+    font-size: 1.5rem;
+    display: inline-block;
+    margin: 15px 10px 0 10px;
+    color: white;
+}
+input[type="radio"] {
+    margin-left: 10px;
+    cursor: pointer;
+}
+.genderText {
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+}
+#se_keeplogin {
+    font-size: 1.5rem;
+    display: inline-block;
+    margin: 10px 10px 0 10px;
+    color: white;
+}
+
+#save_button {
+    height: 40px;
+    width: 335px;
+    font-size: 2rem;
+    display: inline-block;
+    vertical-align: middle;
+    border: 0;
+}
+#save_button:hover {
+    color: black;
+    cursor: pointer;
+}
+
+#toast {
+    display: none;
+    position: absolute;
+    width: 240px;
+    top: 150px;
+    left: 37px;
+    text-align: center;
+    background: black;
+    opacity: 0.6;
+    color: white;
+    font-size: 2rem;
+    padding: 10px;
+    border-radius: 10px;
+}
+#changenumber{
+    float: left;
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 10px;
+}
+#deleteaccount {
+    float: right;
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+#se_row5 {
+    display: none;
+}
+#connect_email {
+    display: none;
+    padding: 0.6rem;
+    margin: 10px 0 10px 72px;
+    color: white;
+    font-size: 2rem;
+    border-radius: 5px;
+    border: solid 3px white;
+    cursor: pointer;
+}
+#connect_email:hover {
+    color: #28b9e6;
+    background: white;
+}
+#connect_email_disc {
+    color: white;
+    font-size: 1rem;
+    display: none;
+    margin-left: 15px;
+}
+#connect_fb {
+    display: none;
+    padding: 0.6rem;
+    margin: 10px 0 10px 52px;
+    color: white;
+    font-size: 2rem;
+    border-radius: 5px;
+    border: solid 3px white;
+    cursor: pointer;
+}
+#connect_fb:hover {
+    color: #28b9e6;
+    background: white;
+}
+#connect_fb_disc {
+    color: white;
+    font-size: 1rem;
+    display: none;
+    margin-left: 15px;
+}
+#se_row5_white_blank {
+    display: none;
+}

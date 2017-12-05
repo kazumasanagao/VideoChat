@@ -1,0 +1,53 @@
+#policy_container {
+    width: 320px;
+    z-index: 2;
+    background: black;
+    opacity: 0.6;
+    color: white;
+}
+#policy_title {
+    padding: 15px 15px 0 15px;
+    font-size: 1.5rem;
+}
+#termsand {
+    padding: 2px 5px 5px 5px;
+    border: 2px solid white;
+    background: white;
+    color: black;
+    display: block;
+    width: 230px;
+}
+#privacypolicy {
+    padding: 2px 5px 5px 5px;
+    border: 2px solid white;
+    cursor: pointer;
+    margin-top: 10px;
+    display: block;
+    width: 230px;
+}
+#japanese {
+    font-size: 9px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    display: block;
+}
+#policy_message {
+    font-size: 12px;
+    margin: 10px 15px 15px 15px;
+    padding: 15px;
+    height: 300px;
+    border: 2px solid white;
+    line-height: 130%;
+    overflow: scroll;
+    user-select: text;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    -o-user-select: text;
+}
+.headlines {
+    font-weight: bold;
+    margin: 12px 0 6px 0;
+}

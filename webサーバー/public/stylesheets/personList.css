@@ -1,0 +1,96 @@
+#person_list {
+	background: white;
+	overflow: hidden;
+	cursor: pointer;
+	width: 949px;
+}
+.persons {
+	height: 80px;
+	width: 315px;
+	float: left;
+	margin-left: 2px;
+	margin-top: 2px;
+
+}
+.first_column {
+	margin-left: 0px;
+}
+.intro {
+	float: right;
+	width: 215px;
+	padding: 7px 10px 10px 10px;
+}
+.intro_top {
+	font-size: 1.6rem;
+}
+.nation{
+	word-wrap: break-word;
+}
+.intro_bottom {
+	margin-top: 5px; 
+	font-size: 1.3rem;
+	line-height: 120%;
+	color: white;
+	word-wrap: break-word;
+}
+.star_history {
+	display: inline-block;
+	margin-top: 5px;
+}
+.blockbutton {
+	position: relative;
+	top: 15px;
+	float: right;
+	font-size: 1.1rem;
+}
+.reportbutton {
+	position: relative;
+	top: 15px;
+	float: right;
+	font-size: 1.1rem;
+}
+#blank1 {
+	height: 80px;
+	width: 317px;
+	float: left;
+	margin-top: 2px;
+	cursor: default;
+}
+#blank2 {
+	height: 80px;
+	width: 634px;
+	float: left;
+	margin-top: 2px;
+	cursor: default;
+}
+
+#pageBar {
+	margin-top: 15px;
+	padding: 4px 0;
+	width: 100%;
+	height: 18px;
+	text-align: center;
+	font-size: 1.6rem;
+}
+#prev {
+	margin-right: 30px;
+}
+#next {
+	margin-left: 30px;
+}
+.page {
+	padding: 0 10px;
+}
+.clickable {
+	cursor: pointer;
+}
+.unclickable {
+	cursor: default;
+}
+
+.newmes {
+    background: red;
+    color: white;
+    border-radius: 5px;
+    padding: 0px 3px;
+}
